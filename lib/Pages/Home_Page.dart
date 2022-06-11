@@ -42,7 +42,8 @@ class _Home_PageState extends State<Home_Page> {
           child:Center(
               child: GestureDetector(
                 onTap: (){
-                  Navigator.pushNamed(context, "login");
+
+            Navigator.pushNamed(context, "login");
                 },
                 child: Text(name.toUpperCase(),style: TextStyle(fontSize: 30,color:
                 Colors.deepPurple,
