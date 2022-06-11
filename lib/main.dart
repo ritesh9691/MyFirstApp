@@ -20,7 +20,7 @@ class _MyApplicationState extends State<MyApplication> {
 
     return MaterialApp(
        theme: ThemeData(
-       brightness: Brightness.dark,
+       brightness: Brightness.light,
         fontFamily: GoogleFonts.lato().fontFamily,
          // primaryTextTheme: GoogleFonts.latoTextTheme(),
        ),
